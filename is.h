@@ -1,0 +1,33 @@
+/* instruction set */
+#define  I_END	  0x00
+#define  I_NOP    0x01
+#define  I_OUT    0x02
+#define  I_LOD_0  0x10
+#define  I_LOD_1  0x11
+#define  I_LOD_2  0x12
+#define  I_LOD_3  0x13
+#define  I_LOD_4  0x14
+#define  I_LOD_5  0x15
+#define  I_STO_0  0x20
+#define  I_STO_1  0x21
+#define  I_STO_2  0x22
+#define  I_STO_3  0x23
+#define  I_ADD_0  0x30
+#define  I_ADD_1  0x31
+#define  I_SUB_0  0x40
+#define  I_SUB_1  0x41
+#define  I_MUL_0  0x50
+#define  I_MUL_1  0x51
+#define  I_DIV_0  0x60
+#define  I_DIV_1  0x61
+#define  I_TST_0  0x70
+#define  I_JMP_0  0x80
+#define  I_JMP_1  0x81
+#define  I_JEZ_0  0x82
+#define  I_JEZ_1  0x83
+#define  I_JLZ_0  0x84
+#define  I_JLZ_1  0x85
+#define  I_JGZ_0  0x86
+#define  I_JGZ_1  0x87
+#define  I_MAX    0xFF
+
